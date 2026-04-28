@@ -1,0 +1,101 @@
+Implement the following design in React. Use the following files generated from a Figma design as a specification and guide:
+
+```src/styles/Frame_173.module.css
+.Frame_173_71_2 {
+  width: 359px;
+  height: 2366px;
+}
+.Frame_158_69_48 {
+  width: 406px;
+  height: 694px;
+}
+.Rectangle_52_63_24 {
+  background: #7597a4;
+  border-radius: 6px;
+  width: 359px;
+  height: 2343px;
+}
+.Frame_172_69_1544 {
+  width: 406px;
+  height: 23px;
+}
+.MaskGroup_63_17,
+.MaskGroup_63_21 {
+  aspect-ratio: 180/64.88;
+  width: 180px;
+  height: 64.884px;
+}
+.Ellipse_5_63_32 {
+  fill: linear-gradient(0deg, #1c1c1c66 37.87%, #82828200 180.77%);
+  filter: blur(6px);
+  width: 47px;
+  height: 8px;
+}
+.Rectangle_47_63_6 {
+  filter: blur(6.6px);
+  background: #0003;
+  border-radius: 11px;
+  width: 192px;
+  height: 10px;
+}
+.Ellipse_6_63_33 {
+  fill: #0003;
+  filter: blur(2px);
+  width: 32px;
+  height: 3px;
+}
+
+```
+
+---
+
+```src/components/Frame_173.tsx
+import React from 'react';
+import styles from '../styles/Frame_173.module.css';
+
+
+export default function Frame_173() {
+  return (
+    <div className={styles.Frame_173_71_2}>
+      <div className={styles.Frame_158_69_48}></div>
+      <div className={styles.Rectangle_52_63_24}></div>
+      <div className={styles.Frame_172_69_1544}>
+        <div className={styles.MaskGroup_63_17}><svg width="180" height="65" viewBox="0 0 180 65" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+            <mask id="mask0_63_17" style={{"maskType":"alpha"}} maskUnits="userSpaceOnUse" x="0" y="0" width="180" height="65">
+              <rect width="180" height="64.8837" fill="#D9D9D9" />
+            </mask>
+            <g mask="url(#mask0_63_17)">
+              <rect x="33.3496" y="42.3308" width="529.885" height="20.298" fill="url(#pattern0_63_17)" />
+            </g>
+            <defs>
+              <pattern id="pattern0_63_17" patternContentUnits="objectBoundingBox" width="1" height="1">
+                <use transform="matrix(0.000366227 0 0 0.00956162 0 -28.2016)" />
+              </pattern>
+              <image id="image0_63_17" width="2731" height="4096" preserveAspectRatio="none" />
+            </defs>
+          </svg>
+        </div>
+        <div className={styles.MaskGroup_63_21}><svg width="180" height="65" viewBox="0 0 180 65" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+            <mask id="mask0_63_21" style={{"maskType":"alpha"}} maskUnits="userSpaceOnUse" x="0" y="0" width="180" height="65">
+              <rect width="180" height="64.8837" transform="matrix(-1 0 0 1 180 0)" fill="#D9D9D9" />
+            </mask>
+            <g mask="url(#mask0_63_21)">
+              <rect width="529.885" height="20.298" transform="matrix(-1 0 0 1 146.65 42.3308)" fill="url(#pattern0_63_21)" />
+            </g>
+            <defs>
+              <pattern id="pattern0_63_21" patternContentUnits="objectBoundingBox" width="1" height="1">
+                <use transform="matrix(0.000366227 0 0 0.00956162 0 -28.2016)" />
+              </pattern>
+              <image id="image0_63_21" width="2731" height="4096" preserveAspectRatio="none" />
+            </defs>
+          </svg>
+        </div>
+        <div className={styles.Ellipse_5_63_32}></div>
+        <div className={styles.Rectangle_47_63_6}></div>
+        <div className={styles.Ellipse_6_63_33}></div>
+      </div>
+    </div>
+  );
+}
+```
+

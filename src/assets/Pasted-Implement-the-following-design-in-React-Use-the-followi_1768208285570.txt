@@ -1,0 +1,349 @@
+Implement the following design in React. Use the following files generated from a Figma design as a specification and guide:
+
+```src/styles/Frame_110.module.css
+.Frame_110_43_1919 {
+  backdrop-filter: blur(7.58665px);
+  background: #f5f5f5e6;
+  border-radius: 33.718px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 53.949px;
+  width: 1344px;
+  height: 960px;
+  padding: 42.148px;
+  display: flex;
+}
+.Vector_43_1914 {
+  stroke-width: 1.686px;
+  stroke: #141b34;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  width: 20.231px;
+  height: 20.231px;
+}
+.Frame_109_43_1918 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 43.834px;
+  width: 100%;
+  display: flex;
+}
+.Frame_107_43_1916 {
+  align-items: flex-start;
+  gap: 62.379px;
+  width: 100%;
+  display: flex;
+}
+.WepikExport_20230929204043501C_2_35_1904 {
+  background:
+    url(<path-to-image>) 1.024px -16.096px/100% 148.791% no-repeat,
+    url(<path-to-image>) -143.23px 0/191.765% 100% no-repeat,
+    #fdfdfd;
+  border-radius: 33.718px;
+  width: 290px;
+  height: 324px;
+}
+.Frame_106_43_1915 {
+  flex-direction: column;
+  flex: 1 0 0;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  height: 324px;
+  display: flex;
+}
+.Frame_116_49_3142 {
+  align-items: flex-start;
+  gap: 40px;
+  width: 100%;
+  display: flex;
+}
+.Frame_111_49_3121 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 13px;
+  height: 94.412px;
+  display: flex;
+}
+.AhmadAlAmir_35_1905 {
+  color: #000;
+  font-family: Sansation;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  display: inline-block;
+}
+.UxUiDesigner_49_3120 {
+  color: #000;
+  font-family: Helvetica Neue;
+  font-size: 26.975px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.661px;
+  display: inline-block;
+}
+.Frame_112_49_3138 {
+  flex-direction: column;
+  flex: 1 0 0;
+  align-items: flex-start;
+  gap: 13px;
+  width: 100%;
+  display: flex;
+}
+.generated_أحمدالأمير_49_3139 {
+  color: #000;
+  text-align: right;
+  font-family: Helvetica Neue;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  display: inline-block;
+}
+.generated_مصممتجربةالمستخدمواجهةالمستخدم_49_3140 {
+  color: #000;
+  text-align: right;
+  font-family: Helvetica Neue;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.661px;
+  display: inline-block;
+}
+.Frame_154_49_6640 {
+  align-items: flex-start;
+  gap: 3px;
+  width: 907px;
+  display: flex;
+}
+.EducationBAGraphicDesign_2024_49_6639 {
+  color: #000;
+  flex: 1 0 0;
+  font-family: Sansation;
+  font-size: 23.603px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.661px;
+  display: inline-block;
+}
+._2024_49_6638 {
+  color: #000;
+  text-align: right;
+  flex-shrink: 0;
+  width: 402px;
+  font-family: Helvetica Neue;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  display: inline-block;
+}
+.Frame_155_49_6643 {
+  align-items: flex-start;
+  gap: 48px;
+  width: 100%;
+  display: flex;
+}
+.LocationBeirutLebanon_35_1907 {
+  color: #000;
+  flex: 1 0 0;
+  font-family: Helvetica Neue LT Arabic;
+  font-size: 23.603px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.661px;
+  display: inline-block;
+}
+.generated_الموقعبيروتلبنان_49_6641 {
+  color: #000;
+  text-align: right;
+  font-family: Helvetica Neue;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  display: inline-block;
+}
+.Vector_6_35_1909 {
+  stroke-width: 1.686px;
+  stroke: #cac0c0;
+  box-sizing: border-box;
+  width: 1260px;
+  height: 0;
+}
+.Frame_108_43_1917 {
+  align-items: flex-start;
+  gap: 37.09px;
+  width: 100%;
+  display: flex;
+}
+.Frame_152_49_6636 {
+  flex-direction: column;
+  flex: 1 0 0;
+  align-items: flex-start;
+  gap: 37px;
+  width: 100%;
+  display: flex;
+}
+.Frame_112_49_3124 {
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 37.09px;
+  width: 100%;
+  display: flex;
+}
+.generated_ملخصموجز_35_1902 {
+  color: #000;
+  font-family: Helvetica Neue;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40.462px;
+  display: inline-block;
+}
+.generated_مصممشغوفيركزعلىدمجالإبداعالرقميمعالحلولالموجهةنحوالمستخدملديهخبرةفيبناءواجهاتتفاعليةوسردبصري_49_3122 {
+  color: #000;
+  text-align: right;
+  font-family: Helvetica Neue;
+  font-size: 23.603px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.661px;
+  display: inline-block;
+}
+.Frame_113_49_3125 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 37.09px;
+  width: 100%;
+  display: flex;
+}
+.BriefSummary_49_3126 {
+  color: #000;
+  font-family: Sansation;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28.661px;
+  display: inline-block;
+}
+.PassionateDesignerFocusedOnBlendingDigitalCreativityWithUserCentricSolutionsExperiencedInBuildingInteractiveInterfacesAndVisualStorytelling_49_3127 {
+  color: #000;
+  font-family: Sansation;
+  font-size: 23.603px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.661px;
+  display: inline-block;
+}
+.Frame_153_49_6637 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 37px;
+  width: 611px;
+  display: flex;
+}
+.Frame_114_49_3130 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 37.09px;
+  width: 100%;
+  display: flex;
+}
+.generated_خبرة_35_1911 {
+  color: #000;
+  text-align: right;
+  font-family: Helvetica Neue;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28.661px;
+  display: inline-block;
+}
+.generated_أكثرمنسنتينفيتصميمتجربةالمستخدموواجهةالمستخدممعالعملعلىواجهاتالويبوالهواتفالمحمولةتركيزقويعلىقابليةالاستخداموالوضوحالبصريوالاتساق_49_3129 {
+  color: #000;
+  text-align: right;
+  font-family: Helvetica Neue;
+  font-size: 23.603px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.661px;
+  display: inline-block;
+}
+.Frame_115_49_3131 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 37.09px;
+  width: 100%;
+  display: flex;
+}
+.Experience_49_3132 {
+  color: #000;
+  font-family: Sansation;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28.661px;
+  display: inline-block;
+}
+.YearsInUxUiDesignWorkingOnWebAndMobileInterfacesStrongFocusOnUsabilityVisualClarityAndConsistency_49_3133 {
+  color: #000;
+  font-family: Sansation;
+  font-size: 23.603px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.661px;
+  display: inline-block;
+}
+
+```
+
+---
+
+```src/components/Frame_110.tsx
+import React from 'react';
+import styles from '../styles/Frame_110.module.css';
+
+
+export default function Frame_110() {
+  return (
+    <div className={styles.Frame_110_43_1919}>
+      <div className={styles.Vector_43_1914}><svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M20.2311 0L0.00136584 20.2297M20.2297 20.2311L0 0.00143337" stroke="#141B34" strokeWidth="1.68592" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
+      </div>
+      <div className={styles.Frame_109_43_1918}>
+        <div className={styles.Frame_107_43_1916}>
+          <div className={styles.WepikExport_20230929204043501C_2_35_1904}></div>
+          <div className={styles.Frame_106_43_1915}>
+            <div className={styles.Frame_116_49_3142}>
+              <div className={styles.Frame_111_49_3121}><span className={styles.AhmadAlAmir_35_1905}>Ahmad Al Amir</span><span className={styles.UxUiDesigner_49_3120}>UX/UI Designer</span></div>
+              <div className={styles.Frame_112_49_3138}><span className={styles.generated_أحمدالأمير_49_3139}>&#x623;&#x62D;&#x645;&#x62F; &#x627;&#x644;&#x623;&#x645;&#x64A;&#x631;</span><span className={styles.generated_مصممتجربةالمستخدمواجهةالمستخدم_49_3140}>&#x645;&#x635;&#x645;&#x645; &#x62A;&#x62C;&#x631;&#x628;&#x629; &#x627;&#x644;&#x645;&#x633;&#x62A;&#x62E;&#x62F;&#x645; / &#x648;&#x627;&#x62C;&#x647;&#x629; &#x627;&#x644;&#x645;&#x633;&#x62A;&#x62E;&#x62F;&#x645;</span></div>
+            </div>
+            <div className={styles.Frame_154_49_6640}><span className={styles.EducationBAGraphicDesign_2024_49_6639}>Education: B.A. Graphic Design, 2024</span><span className={styles._2024_49_6638}>&#x627;&#x644;&#x62A;&#x639;&#x644;&#x64A;&#x645;: &#x628;&#x643;&#x627;&#x644;&#x64A;&#x648;&#x633; &#x641;&#x64A; &#x627;&#x644;&#x62A;&#x635;&#x645;&#x64A;&#x645; &#x627;&#x644;&#x62C;&#x631;&#x627;&#x641;&#x64A;&#x643;&#x64A;&#x60C; 2024</span></div>
+            <div className={styles.Frame_155_49_6643}><span className={styles.LocationBeirutLebanon_35_1907}>Location: Beirut, Lebanon</span><span className={styles.generated_الموقعبيروتلبنان_49_6641}>&#x627;&#x644;&#x645;&#x648;&#x642;&#x639;: &#x628;&#x64A;&#x631;&#x648;&#x62A;&#x60C; &#x644;&#x628;&#x646;&#x627;&#x646;</span></div>
+          </div>
+        </div>
+        <div className={styles.Vector_6_35_1909}><svg width="1260" viewBox="0 0 1260 0" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 0H1260" stroke="#CAC0C0" strokeWidth="1.68592" />
+          </svg>
+        </div>
+        <div className={styles.Frame_108_43_1917}>
+          <div className={styles.Frame_152_49_6636}>
+            <div className={styles.Frame_112_49_3124}><span className={styles.generated_ملخصموجز_35_1902}>&#x645;&#x644;&#x62E;&#x635; &#x645;&#x648;&#x62C;&#x632;</span><span className={styles.generated_مصممشغوفيركزعلىدمجالإبداعالرقميمعالحلولالموجهةنحوالمستخدملديهخبرةفيبناءواجهاتتفاعليةوسردبصري_49_3122}>&#x645;&#x635;&#x645;&#x645; &#x634;&#x63A;&#x648;&#x641; &#x64A;&#x631;&#x643;&#x632; &#x639;&#x644;&#x649; &#x62F;&#x645;&#x62C; &#x627;&#x644;&#x625;&#x628;&#x62F;&#x627;&#x639; &#x627;&#x644;&#x631;&#x642;&#x645;&#x64A; &#x645;&#x639; &#x627;&#x644;&#x62D;&#x644;&#x648;&#x644; &#x627;&#x644;&#x645;&#x648;&#x62C;&#x647;&#x629; &#x646;&#x62D;&#x648; &#x627;&#x644;&#x645;&#x633;&#x62A;&#x62E;&#x62F;&#x645;. &#x644;&#x62F;&#x64A;&#x647; &#x62E;&#x628;&#x631;&#x629; &#x641;&#x64A; &#x628;&#x646;&#x627;&#x621; &#x648;&#x627;&#x62C;&#x647;&#x627;&#x62A; &#x62A;&#x641;&#x627;&#x639;&#x644;&#x64A;&#x629; &#x648;&#x633;&#x631;&#x62F; &#x628;&#x635;&#x631;&#x64A;.</span></div>
+            <div className={styles.Frame_113_49_3125}><span className={styles.BriefSummary_49_3126}>Brief summary</span><span className={styles.PassionateDesignerFocusedOnBlendingDigitalCreativityWithUserCentricSolutionsExperiencedInBuildingInteractiveInterfacesAndVisualStorytelling_49_3127}>Passionate designer focused on blending digital creativity
+                with user-centric solutions. Experienced in building
+                interactive interfaces and visual storytelling</span></div>
+          </div>
+          <div className={styles.Frame_153_49_6637}>
+            <div className={styles.Frame_114_49_3130}><span className={styles.generated_خبرة_35_1911}>&#x62E;&#x628;&#x631;&#x629;</span><span className={styles.generated_أكثرمنسنتينفيتصميمتجربةالمستخدموواجهةالمستخدممعالعملعلىواجهاتالويبوالهواتفالمحمولةتركيزقويعلىقابليةالاستخداموالوضوحالبصريوالاتساق_49_3129}>&#x623;&#x643;&#x62B;&#x631; &#x645;&#x646; &#x633;&#x646;&#x62A;&#x64A;&#x646; &#x641;&#x64A; &#x62A;&#x635;&#x645;&#x64A;&#x645; &#x62A;&#x62C;&#x631;&#x628;&#x629; &#x627;&#x644;&#x645;&#x633;&#x62A;&#x62E;&#x62F;&#x645; &#x648;&#x648;&#x627;&#x62C;&#x647;&#x629; &#x627;&#x644;&#x645;&#x633;&#x62A;&#x62E;&#x62F;&#x645;&#x60C; &#x645;&#x639; &#x627;&#x644;&#x639;&#x645;&#x644; &#x639;&#x644;&#x649; &#x648;&#x627;&#x62C;&#x647;&#x627;&#x62A; &#x627;&#x644;&#x648;&#x64A;&#x628; &#x648;&#x627;&#x644;&#x647;&#x648;&#x627;&#x62A;&#x641; &#x627;&#x644;&#x645;&#x62D;&#x645;&#x648;&#x644;&#x629;. &#x62A;&#x631;&#x643;&#x64A;&#x632; &#x642;&#x648;&#x64A; &#x639;&#x644;&#x649; &#x642;&#x627;&#x628;&#x644;&#x64A;&#x629; &#x627;&#x644;&#x627;&#x633;&#x62A;&#x62E;&#x62F;&#x627;&#x645; &#x648;&#x627;&#x644;&#x648;&#x636;&#x648;&#x62D; &#x627;&#x644;&#x628;&#x635;&#x631;&#x64A; &#x648;&#x627;&#x644;&#x627;&#x62A;&#x633;&#x627;&#x642;.</span></div>
+            <div className={styles.Frame_115_49_3131}><span className={styles.Experience_49_3132}>Experience</span><span className={styles.YearsInUxUiDesignWorkingOnWebAndMobileInterfacesStrongFocusOnUsabilityVisualClarityAndConsistency_49_3133}>2+ years in UX/UI design, working on web and mobile interfaces.&#x2028;Strong focus on usability, visual clarity, and consistency.</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+```
+

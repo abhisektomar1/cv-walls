@@ -1,0 +1,159 @@
+Implement the following design in React. Use the following files generated from a Figma design as a specification and guide:
+
+```src/styles/Frame_108.module.css
+.Frame_108_43_1917 {
+  align-items: flex-start;
+  gap: 37.09px;
+  width: 100%;
+  display: flex;
+}
+.Frame_152_49_6636 {
+  flex-direction: column;
+  flex: 1 0 0;
+  align-items: flex-start;
+  gap: 37px;
+  width: 100%;
+  display: flex;
+}
+.Frame_112_49_3124 {
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 37.09px;
+  width: 100%;
+  display: flex;
+}
+.generated_ملخصموجز_35_1902 {
+  color: #000;
+  font-family: Helvetica Neue;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40.462px;
+  display: inline-block;
+}
+.generated_مصممشغوفيركزعلىدمجالإبداعالرقميمعالحلولالموجهةنحوالمستخدملديهخبرةفيبناءواجهاتتفاعليةوسردبصري_49_3122 {
+  color: #000;
+  text-align: right;
+  font-family: Helvetica Neue;
+  font-size: 23.603px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.661px;
+  display: inline-block;
+}
+.Frame_113_49_3125 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 37.09px;
+  width: 100%;
+  display: flex;
+}
+.BriefSummary_49_3126 {
+  color: #000;
+  font-family: Sansation;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28.661px;
+  display: inline-block;
+}
+.PassionateDesignerFocusedOnBlendingDigitalCreativityWithUserCentricSolutionsExperiencedInBuildingInteractiveInterfacesAndVisualStorytelling_49_3127 {
+  color: #000;
+  font-family: Sansation;
+  font-size: 23.603px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.661px;
+  display: inline-block;
+}
+.Frame_153_49_6637 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 37px;
+  width: 611px;
+  display: flex;
+}
+.Frame_114_49_3130 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 37.09px;
+  width: 100%;
+  display: flex;
+}
+.generated_خبرة_35_1911 {
+  color: #000;
+  text-align: right;
+  font-family: Helvetica Neue;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28.661px;
+  display: inline-block;
+}
+.generated_أكثرمنسنتينفيتصميمتجربةالمستخدموواجهةالمستخدممعالعملعلىواجهاتالويبوالهواتفالمحمولةتركيزقويعلىقابليةالاستخداموالوضوحالبصريوالاتساق_49_3129 {
+  color: #000;
+  text-align: right;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  height: 70px;
+  font-family: Helvetica Neue;
+  font-size: 23.603px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.661px;
+  display: inline-block;
+  overflow: hidden;
+}
+.Frame_115_49_3131 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 37.09px;
+  width: 100%;
+  display: flex;
+}
+.Experience_49_3132 {
+  color: #000;
+  font-family: Sansation;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28.661px;
+  display: inline-block;
+}
+.YearsInUxUiDesignWorkingOnWebAndMobileInterfacesStrongFocusOnUsabilityVisualClarityAndConsistency_49_3133 {
+  color: #000;
+  font-family: Sansation;
+  font-size: 23.603px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.661px;
+  display: inline-block;
+}
+
+```
+
+---
+
+```src/components/Frame_108.tsx
+import React from 'react';
+import styles from '../styles/Frame_108.module.css';
+
+
+export default function Frame_108() {
+  return (
+    <div className={styles.Frame_108_43_1917}>
+      <div className={styles.Frame_152_49_6636}>
+        <div className={styles.Frame_112_49_3124}><span className={styles.generated_ملخصموجز_35_1902}>&#x645;&#x644;&#x62E;&#x635; &#x645;&#x648;&#x62C;&#x632;</span><span className={styles.generated_مصممشغوفيركزعلىدمجالإبداعالرقميمعالحلولالموجهةنحوالمستخدملديهخبرةفيبناءواجهاتتفاعليةوسردبصري_49_3122}>&#x645;&#x635;&#x645;&#x645; &#x634;&#x63A;&#x648;&#x641; &#x64A;&#x631;&#x643;&#x632; &#x639;&#x644;&#x649; &#x62F;&#x645;&#x62C; &#x627;&#x644;&#x625;&#x628;&#x62F;&#x627;&#x639; &#x627;&#x644;&#x631;&#x642;&#x645;&#x64A; &#x645;&#x639; &#x627;&#x644;&#x62D;&#x644;&#x648;&#x644; &#x627;&#x644;&#x645;&#x648;&#x62C;&#x647;&#x629; &#x646;&#x62D;&#x648; &#x627;&#x644;&#x645;&#x633;&#x62A;&#x62E;&#x62F;&#x645;. &#x644;&#x62F;&#x64A;&#x647; &#x62E;&#x628;&#x631;&#x629; &#x641;&#x64A; &#x628;&#x646;&#x627;&#x621; &#x648;&#x627;&#x62C;&#x647;&#x627;&#x62A; &#x62A;&#x641;&#x627;&#x639;&#x644;&#x64A;&#x629; &#x648;&#x633;&#x631;&#x62F; &#x628;&#x635;&#x631;&#x64A;.</span></div>
+        <div className={styles.Frame_113_49_3125}><span className={styles.BriefSummary_49_3126}>Brief summary</span><span className={styles.PassionateDesignerFocusedOnBlendingDigitalCreativityWithUserCentricSolutionsExperiencedInBuildingInteractiveInterfacesAndVisualStorytelling_49_3127}>Passionate designer focused on blending digital creativity
+            with user-centric solutions. Experienced in building
+            interactive interfaces and visual storytelling</span></div>
+      </div>
+      <div className={styles.Frame_153_49_6637}>
+        <div className={styles.Frame_114_49_3130}><span className={styles.generated_خبرة_35_1911}>&#x62E;&#x628;&#x631;&#x629;</span><span className={styles.generated_أكثرمنسنتينفيتصميمتجربةالمستخدموواجهةالمستخدممعالعملعلىواجهاتالويبوالهواتفالمحمولةتركيزقويعلىقابليةالاستخداموالوضوحالبصريوالاتساق_49_3129}>&#x623;&#x643;&#x62B;&#x631; &#x645;&#x646; &#x633;&#x646;&#x62A;&#x64A;&#x646; &#x641;&#x64A; &#x62A;&#x635;&#x645;&#x64A;&#x645; &#x62A;&#x62C;&#x631;&#x628;&#x629; &#x627;&#x644;&#x645;&#x633;&#x62A;&#x62E;&#x62F;&#x645; &#x648;&#x648;&#x627;&#x62C;&#x647;&#x629; &#x627;&#x644;&#x645;&#x633;&#x62A;&#x62E;&#x62F;&#x645;&#x60C; &#x645;&#x639; &#x627;&#x644;&#x639;&#x645;&#x644; &#x639;&#x644;&#x649; &#x648;&#x627;&#x62C;&#x647;&#x627;&#x62A; &#x627;&#x644;&#x648;&#x64A;&#x628; &#x648;&#x627;&#x644;&#x647;&#x648;&#x627;&#x62A;&#x641; &#x627;&#x644;&#x645;&#x62D;&#x645;&#x648;&#x644;&#x629;. &#x62A;&#x631;&#x643;&#x64A;&#x632; &#x642;&#x648;&#x64A; &#x639;&#x644;&#x649; &#x642;&#x627;&#x628;&#x644;&#x64A;&#x629; &#x627;&#x644;&#x627;&#x633;&#x62A;&#x62E;&#x62F;&#x627;&#x645; &#x648;&#x627;&#x644;&#x648;&#x636;&#x648;&#x62D; &#x627;&#x644;&#x628;&#x635;&#x631;&#x64A; &#x648;&#x627;&#x644;&#x627;&#x62A;&#x633;&#x627;&#x642;.</span></div>
+        <div className={styles.Frame_115_49_3131}><span className={styles.Experience_49_3132}>Experience</span><span className={styles.YearsInUxUiDesignWorkingOnWebAndMobileInterfacesStrongFocusOnUsabilityVisualClarityAndConsistency_49_3133}>2+ years in UX/UI design, working on web and mobile interfaces.&#x2028;Strong focus on usability, visual clarity, and consistency.</span></div>
+      </div>
+    </div>
+  );
+}
+```
+

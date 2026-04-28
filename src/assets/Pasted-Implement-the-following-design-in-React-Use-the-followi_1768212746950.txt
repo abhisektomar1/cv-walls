@@ -1,0 +1,159 @@
+Implement the following design in React. Use the following files generated from a Figma design as a specification and guide:
+
+```src/styles/Frame_106.module.css
+.Frame_106_43_1915 {
+  flex-direction: column;
+  flex: 1 0 0;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+  width: 100%;
+  height: 324px;
+  display: flex;
+}
+.Frame_157_66_34 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  width: 100%;
+  display: flex;
+}
+.Frame_116_49_3142 {
+  align-items: flex-start;
+  gap: 40px;
+  width: 100%;
+  display: flex;
+}
+.Frame_111_49_3121 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 13px;
+  height: 94.412px;
+  display: flex;
+}
+.AhmadAlAmir_35_1905 {
+  color: #000;
+  font-family: Sansation;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  display: inline-block;
+}
+.UxUiDesigner_49_3120 {
+  color: #000;
+  font-family: Helvetica Neue;
+  font-size: 26.975px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.661px;
+  display: inline-block;
+}
+.Frame_112_49_3138 {
+  flex-direction: column;
+  flex: 1 0 0;
+  align-items: flex-start;
+  gap: 13px;
+  width: 100%;
+  display: flex;
+}
+.generated_أحمدالأمير_49_3139 {
+  color: #000;
+  text-align: right;
+  font-family: Helvetica Neue;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  display: inline-block;
+}
+.generated_مصممتجربةالمستخدمواجهةالمستخدم_49_3140 {
+  color: #000;
+  text-align: right;
+  font-family: Helvetica Neue;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.661px;
+  display: inline-block;
+}
+.Frame_154_49_6640 {
+  align-items: flex-start;
+  gap: 3px;
+  width: 907px;
+  display: flex;
+}
+.EducationBAGraphicDesign_2024_49_6639 {
+  color: #000;
+  flex: 1 0 0;
+  font-family: Sansation;
+  font-size: 23.603px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.661px;
+  display: inline-block;
+}
+._2024_49_6638 {
+  color: #000;
+  text-align: right;
+  flex-shrink: 0;
+  width: 402px;
+  font-family: Helvetica Neue;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  display: inline-block;
+}
+.Frame_155_49_6643 {
+  align-items: flex-start;
+  gap: 48px;
+  width: 100%;
+  display: flex;
+}
+.LocationBeirutLebanon_35_1907 {
+  color: #000;
+  flex: 1 0 0;
+  font-family: Sansation;
+  font-size: 23.603px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.661px;
+  display: inline-block;
+}
+.generated_الموقعبيروتلبنان_49_6641 {
+  color: #000;
+  text-align: right;
+  font-family: Helvetica Neue;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  display: inline-block;
+}
+
+```
+
+---
+
+```src/components/Frame_106.tsx
+import React from 'react';
+import styles from '../styles/Frame_106.module.css';
+
+
+export default function Frame_106() {
+  return (
+    <div className={styles.Frame_106_43_1915}>
+      <div className={styles.Frame_157_66_34}>
+        <div className={styles.Frame_116_49_3142}>
+          <div className={styles.Frame_111_49_3121}><span className={styles.AhmadAlAmir_35_1905}>Ahmad Al Amir</span><span className={styles.UxUiDesigner_49_3120}>UX/UI Designer</span></div>
+          <div className={styles.Frame_112_49_3138}><span className={styles.generated_أحمدالأمير_49_3139}>&#x623;&#x62D;&#x645;&#x62F; &#x627;&#x644;&#x623;&#x645;&#x64A;&#x631;</span><span className={styles.generated_مصممتجربةالمستخدمواجهةالمستخدم_49_3140}>&#x645;&#x635;&#x645;&#x645; &#x62A;&#x62C;&#x631;&#x628;&#x629; &#x627;&#x644;&#x645;&#x633;&#x62A;&#x62E;&#x62F;&#x645; / &#x648;&#x627;&#x62C;&#x647;&#x629; &#x627;&#x644;&#x645;&#x633;&#x62A;&#x62E;&#x62F;&#x645;</span></div>
+        </div>
+        <div className={styles.Frame_154_49_6640}><span className={styles.EducationBAGraphicDesign_2024_49_6639}>Education: B.A. Graphic Design, 2024</span><span className={styles._2024_49_6638}>&#x627;&#x644;&#x62A;&#x639;&#x644;&#x64A;&#x645;: &#x628;&#x643;&#x627;&#x644;&#x64A;&#x648;&#x633; &#x641;&#x64A; &#x627;&#x644;&#x62A;&#x635;&#x645;&#x64A;&#x645; &#x627;&#x644;&#x62C;&#x631;&#x627;&#x641;&#x64A;&#x643;&#x64A;&#x60C; 2024</span></div>
+      </div>
+      <div className={styles.Frame_155_49_6643}><span className={styles.LocationBeirutLebanon_35_1907}>Location: Beirut, Lebanon</span><span className={styles.generated_الموقعبيروتلبنان_49_6641}>&#x627;&#x644;&#x645;&#x648;&#x642;&#x639;: &#x628;&#x64A;&#x631;&#x648;&#x62A;&#x60C; &#x644;&#x628;&#x646;&#x627;&#x646;</span></div>
+    </div>
+  );
+}
+```
+

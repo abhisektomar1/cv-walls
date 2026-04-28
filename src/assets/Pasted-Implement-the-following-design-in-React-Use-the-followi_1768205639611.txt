@@ -1,0 +1,95 @@
+Implement the following design in React. Use the following files generated from a Figma design as a specification and guide:
+
+```src/styles/Frame_156.module.css
+.Frame_156_61_2 {
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  height: 3098.03px;
+  padding-bottom: 0;
+  display: flex;
+}
+.Frame_9_9_510 {
+  backdrop-filter: blur(2px);
+  background: #8fd1c466;
+  border-radius: 12px;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  height: 3048px;
+  padding: 66px 50px;
+  display: flex;
+  box-shadow: 0 17px 54.8px #00000059;
+}
+.Frame_11_30_655 {
+  flex-flow: row;
+  flex-grow: 1;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 0;
+  width: 1306px;
+  height: 50.028px;
+  display: flex;
+}
+.Rectangle_47_9_499 {
+  filter: blur(6.6px);
+  background: #0003;
+  border-radius: 11px;
+  width: 947px;
+  height: 19px;
+}
+.Ellipse_1_9_493 {
+  fill: linear-gradient(0deg, #1c1c1c66 37.87%, #82828200 180.77%);
+  filter: blur(6px);
+  width: 95px;
+  height: 16px;
+}
+.Ellipse_2_9_496 {
+  fill: linear-gradient(0deg, #1c1c1c66 37.87%, #82828200 180.77%);
+  filter: blur(6px);
+  width: 80px;
+  height: 13px;
+}
+.Ellipse_3_9_504,
+.Ellipse_4_9_506 {
+  fill: #0003;
+  filter: blur(2px);
+  width: 60px;
+  height: 5px;
+}
+.Image_5_9_355 {
+  aspect-ratio: 1306/50.03;
+  background: #d3d3d3 url(<path-to-image>) 0 -1410.88px/100.017% 3916.44% no-repeat;
+  width: 1306px;
+  height: 50.028px;
+}
+
+```
+
+---
+
+```src/components/Frame_156.tsx
+import React from 'react';
+import styles from '../styles/Frame_156.module.css';
+
+
+export default function Frame_156() {
+  return (
+    <div className={styles.Frame_156_61_2}>
+      <div className={styles.Frame_9_9_510}></div>
+      <div className={styles.Frame_11_30_655}>
+        <div className={styles.Rectangle_47_9_499}></div>
+        <div className={styles.Ellipse_1_9_493}></div>
+        <div className={styles.Ellipse_2_9_496}></div>
+        <div className={styles.Ellipse_3_9_504}></div>
+        <div className={styles.Ellipse_4_9_506}></div>
+        <div className={styles.Image_5_9_355}></div>
+      </div>
+    </div>
+  );
+}
+```
+

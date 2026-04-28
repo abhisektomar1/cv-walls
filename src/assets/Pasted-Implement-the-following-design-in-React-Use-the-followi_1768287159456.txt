@@ -1,0 +1,95 @@
+Implement the following design in React. Use the following files generated from a Figma design as a specification and guide:
+
+```src/styles/Frame_127.module.css
+.Frame_127_69_1384 {
+  backdrop-filter: blur(2px);
+  background: #4d4b61cc;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+  width: 152px;
+  padding: 8px 0;
+  display: flex;
+  box-shadow: 0 4px 16.3px #00000040;
+}
+.Frame_117_69_1385 {
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  display: flex;
+}
+.generated_أحمدالأمير_69_1386 {
+  color: #fff;
+  letter-spacing: -0.07px;
+  font-family: Helvetica Neue;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  display: inline-block;
+}
+.AhmadAlAmir_69_1387 {
+  color: #fff;
+  letter-spacing: -0.07px;
+  font-family: Sansation;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  display: inline-block;
+}
+.Frame_1_69_1388 {
+  background: linear-gradient(88deg, #b6e7df 0.51%, #8fd1c4 103.04%);
+  border-radius: 14px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  width: 144px;
+  height: 42px;
+  padding: 8px 27px;
+  display: flex;
+  box-shadow: 0 4px 24px #93cbc340;
+}
+.generated_عرضالسيرةالذاتية_69_1389 {
+  color: #000;
+  text-align: center;
+  font-family: Helvetica Neue LT Arabic;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+  display: inline-block;
+}
+.ViewCv_69_1390 {
+  color: #000;
+  text-align: center;
+  font-family: Sansation;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 17px;
+  display: inline-block;
+}
+
+```
+
+---
+
+```src/components/Frame_127.tsx
+import React from 'react';
+import styles from '../styles/Frame_127.module.css';
+
+
+export default function Frame_127() {
+  return (
+    <div className={styles.Frame_127_69_1384}>
+      <div className={styles.Frame_117_69_1385}><span className={styles.generated_أحمدالأمير_69_1386}>&#x623;&#x62D;&#x645;&#x62F; &#x627;&#x644;&#x623;&#x645;&#x64A;&#x631;</span><span className={styles.AhmadAlAmir_69_1387}>Ahmad Al Amir</span></div>
+      <div className={styles.Frame_1_69_1388}><span className={styles.generated_عرضالسيرةالذاتية_69_1389}>&#x639;&#x631;&#x636; &#x627;&#x644;&#x633;&#x64A;&#x631;&#x629; &#x627;&#x644;&#x630;&#x627;&#x62A;&#x64A;&#x629;</span><span className={styles.ViewCv_69_1390}>View cv</span></div>
+    </div>
+  );
+}
+```
+
